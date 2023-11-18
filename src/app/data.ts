@@ -598,13 +598,13 @@ export const project4: Project = {
       type: "video",
       label: "Client Dashboard Example",
       text: "Note: I cannot give actual examples due to NDA restrictions",
-      path: ["/fndr/client.mov"],
+      path: ["/fndr/client.mp4"],
     },
     {
       type: "video",
       label: "Sales Dashboard",
       text: "",
-      path: ["/fndr/sales.mov"],
+      path: ["/fndr/sales.mp4"],
     },
     { type: "heading", label: "Feedback", text: "", path: [""] },
     {
