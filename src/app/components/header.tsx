@@ -46,13 +46,13 @@ function Header() {
         </div>
 
         <div className="headerItemContainer">
-          {headerItems.map((item) => {
+          {headerItems.map((item, index) => {
             const isActive =
               (item.route === "work" && pathname === "/") ||
               pathname === `/${item.route}` ||
               pathname.includes(`/${item.route}/`);
             return (
-              <Link href={`/${item.route}`}>
+              <Link key={index} href={`/${item.route}`}>
                 <div className={`headerItem ${isActive ? "active" : ""}`}>
                   {item.name}
                 </div>

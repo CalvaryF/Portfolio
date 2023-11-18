@@ -15,7 +15,7 @@ const ProjectPage: React.FC = ({}) => {
         <div className="main">
           <div className="marginTop">
             <div className="title">
-              <span className={FJ.className}>Hey, I'm Calvary</span>
+              <span className={FJ.className}>Hey, I&apos;m Calvary</span>
             </div>
 
             <br />
@@ -27,9 +27,9 @@ const ProjectPage: React.FC = ({}) => {
                 width: "600px",
               }}
             >
-              I'm a product designer based in Los Angeles, CA. My goal is to use
-              design to imagine and create a future where humans live in harmony
-              with our systems and tools.
+              I am a product designer based in Los Angeles, CA. My goal is to
+              use design to imagine and create a future where humans live in
+              harmony with our systems and tools.
             </div>
           </div>
           <div className="line"></div>

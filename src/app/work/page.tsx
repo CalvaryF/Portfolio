@@ -28,8 +28,8 @@ const ProjectPage: React.FC = ({}) => {
                 width: "600px",
               }}
             >
-              My name is Calvary Fisher. I'm a PM, designer and engineer who
-              specializes in scientific tools and data visualization. I love
+              My name is Calvary Fisher. I&apos;m a PM, designer and engineer
+              who specializes in scientific tools and data visualization. I love
               finding simple solutions to complex problems.
             </div>
           </div>

@@ -14,8 +14,8 @@ export default function Home() {
         marginTop: "100px",
       }}
     >
-      /* Mobile site in progress <br />
-      Please view on desktop */
+      Mobile site in progress <br />
+      Please view on desktop
     </div>
   );
 }
