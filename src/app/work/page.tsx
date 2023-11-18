@@ -1,10 +1,10 @@
 import React from "react";
-import { projects } from "./data";
-import PageLink from "./components/pageLink";
+import { projects } from "../data";
+import PageLink from "../components/pageLink";
 import Image from "next/image";
 import { Inter, Familjen_Grotesk, IBM_Plex_Sans } from "next/font/google";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 const FJ = IBM_Plex_Sans({ subsets: ["latin"], weight: "400" });
 
